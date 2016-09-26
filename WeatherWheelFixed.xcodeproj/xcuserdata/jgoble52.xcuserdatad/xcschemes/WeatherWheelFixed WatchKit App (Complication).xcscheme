@@ -1,10 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "0730"
-   version = "1.3">
+   version = "2.0">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AFB0C4CC1D993F9D0084CF29"
+               BuildableName = "WeatherWheelFixed WatchKit App.app"
+               BlueprintName = "WeatherWheelFixed WatchKit App"
+               ReferencedContainer = "container:WeatherWheelFixed.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AFB0C4DB1D993F9D0084CF29"
+               BuildableName = "WeatherWheelFixed WatchKit Extension.appex"
+               BlueprintName = "WeatherWheelFixed WatchKit Extension"
+               ReferencedContainer = "container:WeatherWheelFixed.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AFB0C4BA1D993F9D0084CF29"
+               BuildableName = "WeatherWheelFixed.app"
+               BlueprintName = "WeatherWheelFixed"
+               ReferencedContainer = "container:WeatherWheelFixed.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -13,6 +57,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "AFB0C4CC1D993F9D0084CF29"
+            BuildableName = "WeatherWheelFixed WatchKit App.app"
+            BlueprintName = "WeatherWheelFixed WatchKit App"
+            ReferencedContainer = "container:WeatherWheelFixed.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -25,7 +78,29 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "YES">
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "32">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/WeatherWheelFixed WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "AFB0C4CC1D993F9D0084CF29"
+            BuildableName = "WeatherWheelFixed WatchKit App.app"
+            BlueprintName = "WeatherWheelFixed WatchKit App"
+            ReferencedContainer = "container:WeatherWheelFixed.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "AFB0C4CC1D993F9D0084CF29"
+            BuildableName = "WeatherWheelFixed WatchKit App.app"
+            BlueprintName = "WeatherWheelFixed WatchKit App"
+            ReferencedContainer = "container:WeatherWheelFixed.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -34,7 +109,29 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      debugDocumentVersioning = "YES">
+      debugDocumentVersioning = "YES"
+      launchAutomaticallySubstyle = "32">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/WeatherWheelFixed WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "AFB0C4CC1D993F9D0084CF29"
+            BuildableName = "WeatherWheelFixed WatchKit App.app"
+            BlueprintName = "WeatherWheelFixed WatchKit App"
+            ReferencedContainer = "container:WeatherWheelFixed.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "AFB0C4CC1D993F9D0084CF29"
+            BuildableName = "WeatherWheelFixed WatchKit App.app"
+            BlueprintName = "WeatherWheelFixed WatchKit App"
+            ReferencedContainer = "container:WeatherWheelFixed.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

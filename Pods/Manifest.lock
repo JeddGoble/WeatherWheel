@@ -1,0 +1,20 @@
+PODS:
+  - ForecastIO (2.1.1)
+
+DEPENDENCIES:
+  - ForecastIO (from `https://github.com/sxg/ForecastIO.git`, branch `swift2.3`)
+
+EXTERNAL SOURCES:
+  ForecastIO:
+    :branch: swift2.3
+    :git: https://github.com/sxg/ForecastIO.git
+
+CHECKOUT OPTIONS:
+  ForecastIO:
+    :commit: 00694917d0379e8ce17c35f3585d69c76786b44a
+    :git: https://github.com/sxg/ForecastIO.git
+
+SPEC CHECKSUMS:
+  ForecastIO: a195c8ec7bd3f23ed856fce1bbf2f141abc45dc8
+
+COCOAPODS: 0.39.0

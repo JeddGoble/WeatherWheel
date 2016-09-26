@@ -1,25 +1,40 @@
 //
 //  ViewController.swift
-//  WeatherWheelFixed
+//  WeatherWheel
 //
-//  Created by jgoble52 on 9/26/16.
+//  Created by jgoble52 on 9/23/16.
 //  Copyright © 2016 tangital. All rights reserved.
 //
 
 import UIKit
+import ForecastIO
+import CoreLocation
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, ForecastDelegate {
+    
+    @IBOutlet weak var wheelView: WheelView!
+    
+    var forecastClient: ForecastClient?
+    
+    var timer = NSTimer()
+    
+    var hourlyTemperatures: [Hour] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        forecastClient = ForecastClient()
+        forecastClient?.delegate = self
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func requestLocationAuthorization(locationManager: CLLocationManager) {
+        
+        locationManager.requestAlwaysAuthorization()
     }
-
-
+    
+    func didLoadWeather(hourlyTemperatures: [Hour]) {
+        
+        wheelView.hourlyTemperatures = hourlyTemperatures
+        
+    }
 }
-
